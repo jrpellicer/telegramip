@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Obtenemos directorio donde se está ejecutando el script
+script_dir=$(dirname "$0")
+
+# Nos situamos en dicho directorio
+cd "$script_dir" || exit
+
 # Token del BOT Rpiasir
 TOKEN="6888310552:AAGdmTERW4L8Dum-hhVTGcLeWKmZrzfVexw"
 
